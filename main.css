@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt:300,500,900';
+
+body {
+    font-size: 16px;
+    font-family: 'Prompt', 'Helvetica', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
