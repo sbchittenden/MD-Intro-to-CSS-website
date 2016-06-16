@@ -5,12 +5,30 @@ body {
     font-family: 'Prompt', 'Helvetica', sans-serif;
 }
 
-nav ul {
+#main-nav-wrap {
+    background-color: lightgrey;
+    margin: 0;
+    min-height: 100%;
+    width: 15em; 
+}
+
+#main-nav {
+    text-align: right;
+}
+
+#main-nav ul {
     list-style-type: none;
 }
 
-nav ul li a {
-    font-weight: 300;
+#main-nav ul li a {
+    font-weight: 900;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+}
+
+#main-content-wrap {
+    background-color: lightblue;
+    min-height: 100%;
 }
