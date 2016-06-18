@@ -6,16 +6,13 @@ body {
   background-color: white;
   font-family: 'Cutive Mono', 'Helvetica', sans-serif;
   background-image: url(img/linedpaper.png);
-}
-
-h1 {
-  font-size: 3em;
+  box-sizing: border-box;
 }
 
 #main-nav-wrap {
-  margin: 1em auto 0em auto;
+  margin: 2em auto 0em auto;
   height: auto;
-  width: 82%;
+  width: 72%;
   background-color: white;
 }
 
@@ -39,7 +36,7 @@ h1 {
 }
 
 #main-nav ul li:hover a {
-  color: #52B3D9;
+  color: #ea2c58;
   text-decoration: line-through;
 }
 
@@ -47,23 +44,170 @@ h1 {
   color: black;
 }
 
+#main-nav ul li.current a {
+  color: #808080;
+}
+
+#main-nav ul li.current:hover a {
+  color: #808080;
+  text-decoration: none;
+}
+
+#name-path {
+  background-color: white;
+  padding: 0.75em;
+  margin: 1em 0em 1.75em 2em;
+  width: 40%;
+  text-align: right;
+}
+
+#name-path h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+#name-path p {
+  margin: 0;
+}
+
 #hero-banner {
-  height: 30em;
+  height: 26em;
   background-image: url(img/hok-wav-2.jpg);
   background-size: cover;
   position: relative;
 }
 
-
-
 #quote {
-  color: black;
+  color: #1e1e1e;
   position: absolute;
-  top: -8%;
+  top: -15%;
   left: 70%;
   transform: translate(-30%,0);
-  font-size: 2.5em;
-  text-align: center;
+  font-size: 2.25em;
+  text-align: right;
   background-color: white;
   margin-bottom: 3em;
+}
+
+#quote blockquote {
+  margin: 1em;
+}
+
+#quote blockquote p {
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+
+#quote cite {
+  font-size: 1.75rem;
+}
+
+#bottom-line {
+  width: 100%;
+  height: .75em;
+  background-color: #ea2c58;
+  position: fixed;
+  bottom: 0;
+}
+
+/* ------------- 
+media queries 
+--------------*/
+
+@media screen and (max-width: 1101px) {
+  #main-nav ul li {
+    margin-bottom: 1em;
+  }
+
+  #quote {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #main-nav-wrap {
+    width: 83%;
+  }
+
+  #name-path {
+    background-color: white;
+    padding: 0.75em;
+    margin: 1em auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  #name-path h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+  }
+
+  #name-path p {
+    margin: 0;
+  }
+
+  #quote {
+    color: #1e1e1e;
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    transform: translate(-30%,0);
+    font-size: 1.5em;
+    text-align: right;
+    background-color: white;
+    margin-bottom: 3em;
+  }
+
+  #quote blockquote {
+    margin: 1em;
+  }
+
+  #quote blockquote p {
+    margin-bottom: 0.3em;
+    text-align: left;
+  }
+
+  #quote cite {
+    font-size: 1.75rem;
+  }
+
+}
+
+@media screen and (max-width: 508px) {
+
+  #main-nav ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+  }
+  #main-nav ul li {
+    display: block;
+  }
+
+  #quote {
+    color: #1e1e1e;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    font-size: 1.5em;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 3em;
+  }
+
+  #quote blockquote {
+    margin: 1em;
+  }
+
+  #quote blockquote p {
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+
+  #quote cite {
+    font-size: 1.75rem;
+  }
 }
