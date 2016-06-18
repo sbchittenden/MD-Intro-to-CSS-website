@@ -1,40 +1,46 @@
-@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
-@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Cutive+Mono';
 
 body {
   font-size: 16px;
-  color: white;
-  background-color: #ea2c58;
+  color: #1e1e1e;
+  background-color: white;
+  font-family: 'Cutive Mono', 'Helvetica', sans-serif;
+  background-image: url(img/linedpaper.png);
+}
+
+h1 {
+  font-size: 3em;
 }
 
 #main-nav-wrap {
-  margin: 0 auto;
+  margin: 1em auto 0em auto;
   height: auto;
-  width: 100%;
+  width: 82%;
+  background-color: white;
 }
 
 #main-nav {
   text-align: center;
   padding: 0.5em 1em 0.25em 0em;
-  text-transform: uppercase;
-  font-family: 'Amatic SC', 'Helvetica', sans-serif;
+  text-transform: lowercase;
 }
 
 #main-nav ul li {
   list-style-type: none;
   display: inline-block; 
-  padding-right: 1em;
+  padding-right: 1.5em;
+  font-family: 'Cutive Mono'
 }
 
 #main-nav ul li a {
-  color: white;
+  color: #1e1e1e;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.25em;
 }
 
 #main-nav ul li:hover a {
-  color: black;
-  border-bottom: dotted 1px white;
+  color: #52B3D9;
+  text-decoration: line-through;
 }
 
 #main-nav ul li:active a {
@@ -42,29 +48,22 @@ body {
 }
 
 #hero-banner {
-  height: 27em;
+  height: 30em;
   background-image: url(img/hok-wav-2.jpg);
   background-size: cover;
+  position: relative;
 }
 
-.grid-sq {
-  float: left;
-  width: 10%;
-  height: 9em;
-}
 
-.gr-pink-50 {
-  background-color: rgba(234,44,88,0.5);
-}
 
-.gr-pink-20 {
-  background-color: rgba(234,44,88,0.2);
-}
-
-.gr-pink-10 {
-  background-color: rgba(234,44,88,0.1);
-}
-
-.gr-white-50 {
-  background-color: rgba(255,255,255,0.5);
+#quote {
+  color: black;
+  position: absolute;
+  top: -8%;
+  left: 70%;
+  transform: translate(-30%,0);
+  font-size: 2.5em;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 3em;
 }
