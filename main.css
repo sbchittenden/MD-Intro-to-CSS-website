@@ -72,7 +72,7 @@ body {
 }
 
 #hero-banner {
-  height: 30em;
+  height: 33em;
   background-image: url(img/hok-wav-2.jpg);
   background-size: cover;
   position: relative;
@@ -105,7 +105,7 @@ body {
 
 #bottom-line {
   width: 100%;
-  height: .75em;
+  height: .8em;
   background-color: #ea2c58;
   position: fixed;
   bottom: 0;
