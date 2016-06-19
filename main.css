@@ -112,7 +112,7 @@ body {
 }
 
 iframe {
-  min-height: 100%;
+  min-height: 50em;
   width: 72%;
   background-color: white;
   margin: 1em auto;
