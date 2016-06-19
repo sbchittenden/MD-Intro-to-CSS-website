@@ -111,6 +111,12 @@ body {
   bottom: 0;
 }
 
+iframe {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
 /* ------------- 
 media queries 
 --------------*/
