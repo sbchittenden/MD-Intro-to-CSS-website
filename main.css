@@ -131,7 +131,6 @@ iframe {
 .form-grid {
   width: 72%;
   margin: 1em auto;
-  background-color: red;
 }
 
 .form-grid:after {
