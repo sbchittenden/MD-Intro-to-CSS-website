@@ -1,0 +1,9 @@
+iframe {
+  height: 30em;
+  width: 72%;
+  background-color: white;
+  margin: 1em auto;
+  padding-left: 2em;
+  box-sizing: border-box;
+  display: inline-block;
+}
