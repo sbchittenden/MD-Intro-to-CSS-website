@@ -1,0 +1,14 @@
+.form-grid a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-grid a:hover {
+  color: #ea2c58;
+  text-decoration: line-through;
+}
+
+.form-grid a:active {
+  color: black;
+}
