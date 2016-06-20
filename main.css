@@ -1,12 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Cutive+Mono';
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   color: #1e1e1e;
   background-color: white;
   font-family: 'Cutive Mono', 'Helvetica', sans-serif;
   background-image: url(img/linedpaper.png);
-  box-sizing: border-box;
 }
 
 #main-nav-wrap {
@@ -112,10 +115,54 @@ body {
 }
 
 iframe {
-  min-height: 50em;
+  height: 30em;
   width: 72%;
   background-color: white;
   margin: 1em auto;
+  padding-left: 2em;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.frame-wrap {
+  text-align: center;
+}
+
+.form-grid {
+  width: 72%;
+  margin: 1em auto;
+  background-color: red;
+}
+
+.form-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-4 {
+  float: left;
+  width: 25%;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.col-4 p {
+    
+}
+
+.bg-white {
+  background-color: white;
+  padding: 1em;
+}
+
+.centered {
+  text-align: center;
 }
 
 /* ------------- 
