@@ -74,6 +74,16 @@ body {
   margin: 0;
 }
 
+#name-path.badge {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 0.5em;
+  text-align: right;
+  width: 27em;
+  border-bottom: solid 2px #ea2c58;
+}
+
 #hero-banner {
   height: 33em;
   background-image: url(img/hok-wav-2.jpg);
