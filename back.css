@@ -1,0 +1,23 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Cutive+Mono';
+
+.back {
+	background-color: white;
+	border-bottom: solid 1px #ea2c58;
+	height: 2em;
+	padding: 1em 0.5em 0.5em 0.5em;
+}
+
+.back a {
+	font-family: 'Cutive Mono', 'Helvetica', sans-serif;
+	color: #1e1e1e;
+	text-decoration: none;
+}
+
+.back a:hover {
+	text-decoration: line-through;
+	color: #ea2c58;
+}
+
+.back a:active {
+	color: black;
+}
