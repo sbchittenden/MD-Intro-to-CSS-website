@@ -21,3 +21,7 @@
 .back a:active {
 	color: black;
 }
+
+.product-page-back {
+	height: 3.5em;
+}
